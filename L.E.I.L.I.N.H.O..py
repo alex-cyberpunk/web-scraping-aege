@@ -288,8 +288,7 @@ for i in range(len(leilao_parque)):
 
 #print(lista_processos)
 
-#browser=login('MWII.064435929','EPE-m-Aege-2022-2')#voltar para po começo pra clicar no parque
-browser=login('PEC.292292748','EPE-p-Aege-2022-2')
+#voltar para po começo pra clicar no parque
 wait = WebDriverWait(browser, 120)#definir tempo de espera caso peça login no meio do processo 
 
 empreendimento='//*[@id="__tab_ctl00_ContentPlaceHolder1_tabEmpreendimento"]'#para clicar na aba EOL
