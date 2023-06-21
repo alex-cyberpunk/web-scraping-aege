@@ -3,4 +3,4 @@ Uma das tarefas que me foi dada logo no inicio do estagio foi o preenchimento de
 Com esse metodo o usuario podia entrar em duas , tres contas diferentes e poder preencher o site com mais confiabilidade e mais rapido do que preenchendo manualmente. 
 
 *Possiveis melhorias*
-treinar tempo de deteccao de carregar itens na pagina e principalmente como fazer com que mesmo a pagina caindo o codigo abra uma nova guia e entre no site continuando exatamente de onde paro
+treinar tempo de deteccao de carregar itens na pagina e principalmente como fazer com que mesmo a pagina caindo o codigo abra uma nova guia e entre no site continuando exatamente de onde paro. E por ultimo a implementacao de screenshots para capturar o resultado para verificacao posterior de membros da equipe
