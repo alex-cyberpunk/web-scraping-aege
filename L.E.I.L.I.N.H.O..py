@@ -17,8 +17,8 @@ from selenium.webdriver.support.ui import Select
 
 
 #######################entrada#############################
-path=r'C:\Users\alex.matias\OneDrive - PEC Energia\programas .py\web_py\plainlhas de entrada\Serra do Assuruá\Nova pasta\conserto\Nova pasta'
-nome_parque='Serra do Asuurua'
+path=r'web-scraping-aege\planilhas de entrada'# le os templates de entrada
+nome_parque=''#para o salvamento de screenshots da saida
 #########################################
 def retorna_lista_entrada(path,aba,coluna):
     lista=[]
