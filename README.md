@@ -1,5 +1,5 @@
 # web-scraping-aege
-## Comtexto:
+## Contexto:
 Uma das tarefas que me foi dada logo no inicio do estagio foi o preenchimento de cadastro do site de leilao de energia no site https://aege-empreendedor.epe.gov.br , esse site dava trabalho pra preencher pois ele vive travando , caindo e continha muitas informacoes a serem preenchidas.A empresa em que eu atuava colocava as informacoes a serem preenchidas pra cada empreendimento numa planilha padrao. E eu havia ouvido falar de um amigo na faculdade sobre um metodo de clique automatico usando selenium em python, a qual fiquei curioso pra testar entao testei nesse site o selenium pra web scraping. 
 
 # Implementacao
