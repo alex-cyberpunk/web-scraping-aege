@@ -6,7 +6,7 @@ Uma das tarefas que me foi dada logo no inicio do estagio foi o preenchimento de
 Foi implementado de forma que ele preenche-se as informacoes do site sozinho , podendo ser retomando do ponto de parada . Por exemplo suponha que o site tenha caido na metade do processo , o codigo continuaria na metade do processo com entrada do usuario.
 Com esse metodo o usuario podia entrar em duas , tres contas diferentes e poder preencher o site com mais confiabilidade e mais rapido do que preenchendo manualmente.Sendo necessario para ele apenas superviosonar quando o site caia e entao reiniciar o codigo. 
 
-*Possiveis melhorias*
+# Possiveis melhorias
 
 -Treinar tempo de deteccao de carregar itens na pagina 
 
