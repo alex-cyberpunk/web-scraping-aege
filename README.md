@@ -1,15 +1,12 @@
 # web-scraping-aege
-## Contexto:
-Uma das tarefas que me foi dada logo no inicio do estagio foi o preenchimento de cadastro do site de leilao de energia no site https://aege-empreendedor.epe.gov.br , esse site dava trabalho pra preencher pois ele vive travando , caindo e continha muitas informacoes a serem preenchidas.A empresa em que eu atuava colocava as informacoes a serem preenchidas pra cada empreendimento numa planilha padrao. E eu havia ouvido falar de um amigo na faculdade sobre um metodo de clique automatico usando selenium em python, a qual fiquei curioso pra testar entao testei nesse site o selenium pra web scraping. 
+## Context
+  One of the tasks assigned to me at the beginning of my internship was to fill out registration forms on the energy auction website https://aege-empreendedor.epe.gov.br. This website was challenging to use as it frequently crashed, experienced downtime, and required filling in many details. My company provided the information for each project in a standard spreadsheet. I had heard from a friend at college about a method of automating clicks using Selenium in Python, and I was curious to try it out. So, I tested Selenium for web scraping on this website.
 
-## Implementacao
-Foi implementado de forma que ele preenche-se as informacoes do site sozinho , podendo ser retomando do ponto de parada . Por exemplo suponha que o site tenha caido na metade do processo , o codigo continuaria na metade do processo com entrada do usuario.
-Com esse metodo o usuario podia entrar em duas , tres contas diferentes e poder preencher o site com mais confiabilidade e mais rapido do que preenchendo manualmente.Sendo necessario para ele apenas superviosonar quando o site caia e entao reiniciar o codigo. 
+## Implementation:
 
-## Possiveis melhorias
+  I implemented a solution that automatically fills in the website information, and it can resume from where it left off in case of interruptions. For example, if the website crashed halfway through the process, the code would continue from that point with user input. With this method, users could log into two or three different accounts and fill in the website information with more reliability and speed than manual entry. They only needed to supervise and restart the code when the website crashed.
 
--Treinar tempo de deteccao de carregar itens na pagina 
-
--Achar metodo de como fazer com que mesmo a pagina caindo o codigo abra uma nova guia e entre no site continuando exatamente de onde paro.Possivelemte salvando os passos num arquivo.
-
--Implementacao de screenshots para capturar o resultado para verificacao posterior de membros da equipe
+## Possible improvements:
+-Fine-tune the detection time for loading items on the page.
+-Find a way to have the code open a new tab and continue from where it left off even if the page crashes, possibly saving the steps in a file.
+-Implement screenshots to capture the results for later verification by team members.
